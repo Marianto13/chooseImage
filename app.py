@@ -1,10 +1,5 @@
 import os
-
-import sys
-
-sys.path.append('/Users/saviothomas/opt/anaconda3/lib/python3.8/site-packages/')
 import cv2
-cv2.path.append('/Users/saviothomas/opt/anaconda3/lib/python3.8/site-packages/cv2')
 import numpy as np
 from flask import Flask, flash, request, redirect, url_for, render_template
 from werkzeug.utils import secure_filename
